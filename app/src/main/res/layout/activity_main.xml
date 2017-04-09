@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.young.cloud.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/hello1_kobe_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Hello Kobe!"/>
+
+    <ImageView
+        android:id="@+id/kobe_img_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kobe"/>
+
+    <TextView
+        android:id="@+id/hello2_kobe_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="30dp"
+        android:text="kobe come back!"/>
+
+</RelativeLayout>
